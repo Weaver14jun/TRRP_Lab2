@@ -43,8 +43,8 @@ namespace TRRP_L2_Server
             AmqpTcpEndpoint amqpTcpEndpoint = new AmqpTcpEndpoint(ipAddr.ToString(), 15672);
             //var factory = new ConnectionFactory() { Endpoint = amqpTcpEndpoint };
             var factory = new ConnectionFactory() { HostName = "localhost" };
-            factory.UserName = "guest";
-            factory.Password = "guest";
+            factory.UserName = "weaver";
+            factory.Password = "1230321";
             //factory.VirtualHost = vhost;
             //factory.HostName = hostName;
             using (var connection = factory.CreateConnection())
@@ -117,7 +117,7 @@ namespace TRRP_L2_Server
 
                         channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
                     };
-                    channel.BasicConsume(queue: "Test",
+                    channel.BasicConsume(queue: "dbQueue",
                                          autoAck: false,
                                          consumer: consumer);
 
