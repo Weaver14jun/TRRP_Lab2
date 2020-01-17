@@ -12,3 +12,17 @@ C:\Users\Gerty\source\repos\TRRP_L2\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Clie
 C:\Users\Gerty\source\repos\TRRP_L2\TRRP_L2\bin\Debug\netcoreapp2.1\Normalizer.dll
 C:\Users\Gerty\source\repos\TRRP_L2\TRRP_L2\bin\Debug\netcoreapp2.1\Normalizer.pdb
 C:\Users\Gerty\source\repos\TRRP_L2\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Client.csproj.CopyComplete
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\bin\Debug\netcoreapp2.1\TRRP_L2_Client.deps.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\bin\Debug\netcoreapp2.1\TRRP_L2_Client.runtimeconfig.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\bin\Debug\netcoreapp2.1\TRRP_L2_Client.runtimeconfig.dev.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\bin\Debug\netcoreapp2.1\TRRP_L2_Client.dll
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\bin\Debug\netcoreapp2.1\TRRP_L2_Client.pdb
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\bin\Debug\netcoreapp2.1\Normalizer.dll
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\bin\Debug\netcoreapp2.1\Normalizer.pdb
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Client.csprojAssemblyReference.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Client.csproj.CoreCompileInputs.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Client.AssemblyInfoInputs.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Client.AssemblyInfo.cs
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Client.csproj.CopyComplete
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Client.dll
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2\obj\Debug\netcoreapp2.1\TRRP_L2_Client.pdb

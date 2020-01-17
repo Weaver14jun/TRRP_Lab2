@@ -3524,11 +3524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gerty\\source\\repos\\TRRP_L2\\TRRP_L2\\TRRP_L2_Client.csproj",
+      "projectUniqueName": "E:\\Downloads\\TRRP_Lab2-master (1)\\TRRP_Lab2-master\\TRRP_L2\\TRRP_L2_Client.csproj",
       "projectName": "TRRP_L2_Client",
-      "projectPath": "C:\\Users\\Gerty\\source\\repos\\TRRP_L2\\TRRP_L2\\TRRP_L2_Client.csproj",
+      "projectPath": "E:\\Downloads\\TRRP_Lab2-master (1)\\TRRP_Lab2-master\\TRRP_L2\\TRRP_L2_Client.csproj",
       "packagesPath": "C:\\Users\\Gerty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gerty\\source\\repos\\TRRP_L2\\TRRP_L2\\obj\\",
+      "outputPath": "E:\\Downloads\\TRRP_Lab2-master (1)\\TRRP_Lab2-master\\TRRP_L2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3547,8 +3547,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Gerty\\source\\repos\\TRRP_L2\\Normalizer\\Normalizer.csproj": {
-              "projectPath": "C:\\Users\\Gerty\\source\\repos\\TRRP_L2\\Normalizer\\Normalizer.csproj"
+            "E:\\Downloads\\TRRP_Lab2-master (1)\\TRRP_Lab2-master\\Normalizer\\Normalizer.csproj": {
+              "projectPath": "E:\\Downloads\\TRRP_Lab2-master (1)\\TRRP_Lab2-master\\Normalizer\\Normalizer.csproj"
             }
           }
         }
