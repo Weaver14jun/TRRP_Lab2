@@ -42,7 +42,7 @@ namespace TRRP_L2_Server
             IPEndPoint ipEndPoint = new IPEndPoint(ipAddr, 11000);
             AmqpTcpEndpoint amqpTcpEndpoint = new AmqpTcpEndpoint(ipAddr.ToString(), 15672);
             //var factory = new ConnectionFactory() { Endpoint = amqpTcpEndpoint };
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "109.120.151.33", Port = 5672};
             factory.UserName = "weaver";
             factory.Password = "1230321";
             //factory.VirtualHost = vhost;
