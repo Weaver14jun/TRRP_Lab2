@@ -65,7 +65,7 @@ namespace TRRP_L2
                 pcListString = sr.ReadToEnd();
             }
 
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "109.120.151.33", Port = 5672, UserName = "weaver", Password = "1230321"};
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())
@@ -84,7 +84,7 @@ namespace TRRP_L2
                     var body = Encoding.UTF8.GetBytes(pcListString);
 
                     channel.BasicPublish(exchange: "",
-                                         routingKey: "Test",
+                                         routingKey: "dbQueue",
                                          basicProperties: null,
                                          body: body);
                     //Console.WriteLine(" [x] Sent {0}", message);

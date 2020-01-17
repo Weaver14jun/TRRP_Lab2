@@ -88,7 +88,7 @@ namespace TRRP_L2_Server
                     //Console.WriteLine(" [x] Sent {0}", message);
 
 
-                    channel.QueueDeclare(queue: "Test",
+                    channel.QueueDeclare(queue: "dbQueue",
                                      durable: true,
                                      exclusive: false,
                                      autoDelete: false,
@@ -106,7 +106,7 @@ namespace TRRP_L2_Server
                         //
 
                         var pcList = JsonConvert.DeserializeObject<List<Normalizer.PCModel>>(message);
-                        Normalizer.PCTableNormalizer.SetPCList(pcList, "Server = 127.0.0.1; User Id = postgres; " + "Password=a54g5x; Database=PC_DB;");
+                        Normalizer.PCTableNormalizer.SetPCList(pcList, "Server = 127.0.0.1; User Id = pcdb; " + "Password=a54g5x; Database=pcdb;");
                         //
                         Console.WriteLine(" [x] Received {0}", message);
 

@@ -12,3 +12,17 @@ C:\Users\Gerty\source\repos\TRRP_L2\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_
 C:\Users\Gerty\source\repos\TRRP_L2\TRRP_L2_Server\bin\Debug\netcoreapp2.1\Normalizer.dll
 C:\Users\Gerty\source\repos\TRRP_L2\TRRP_L2_Server\bin\Debug\netcoreapp2.1\Normalizer.pdb
 C:\Users\Gerty\source\repos\TRRP_L2\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_L2_Server.csproj.CopyComplete
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\bin\Debug\netcoreapp2.1\TRRP_L2_Server.deps.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\bin\Debug\netcoreapp2.1\TRRP_L2_Server.runtimeconfig.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\bin\Debug\netcoreapp2.1\TRRP_L2_Server.runtimeconfig.dev.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\bin\Debug\netcoreapp2.1\TRRP_L2_Server.dll
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\bin\Debug\netcoreapp2.1\TRRP_L2_Server.pdb
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\bin\Debug\netcoreapp2.1\Normalizer.dll
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\bin\Debug\netcoreapp2.1\Normalizer.pdb
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_L2_Server.csprojAssemblyReference.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_L2_Server.csproj.CoreCompileInputs.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_L2_Server.AssemblyInfoInputs.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_L2_Server.AssemblyInfo.cs
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_L2_Server.csproj.CopyComplete
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_L2_Server.dll
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\TRRP_L2_Server\obj\Debug\netcoreapp2.1\TRRP_L2_Server.pdb

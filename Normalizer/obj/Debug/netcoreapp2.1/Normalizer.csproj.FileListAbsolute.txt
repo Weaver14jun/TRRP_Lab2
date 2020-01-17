@@ -9,3 +9,14 @@ C:\Users\Gerty\source\repos\TRRP_L2\Normalizer\obj\Debug\netcoreapp2.1\Normalize
 C:\Users\Gerty\source\repos\TRRP_L2\Normalizer\bin\Debug\netcoreapp2.1\Normalizer.pdb
 C:\Users\Gerty\source\repos\TRRP_L2\Normalizer\obj\Debug\netcoreapp2.1\Normalizer.dll
 C:\Users\Gerty\source\repos\TRRP_L2\Normalizer\obj\Debug\netcoreapp2.1\Normalizer.pdb
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\bin\Debug\netcoreapp2.1\Normalizer.deps.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\bin\Debug\netcoreapp2.1\Normalizer.runtimeconfig.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\bin\Debug\netcoreapp2.1\Normalizer.runtimeconfig.dev.json
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\bin\Debug\netcoreapp2.1\Normalizer.dll
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\bin\Debug\netcoreapp2.1\Normalizer.pdb
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\obj\Debug\netcoreapp2.1\Normalizer.csprojAssemblyReference.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\obj\Debug\netcoreapp2.1\Normalizer.csproj.CoreCompileInputs.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\obj\Debug\netcoreapp2.1\Normalizer.AssemblyInfoInputs.cache
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\obj\Debug\netcoreapp2.1\Normalizer.AssemblyInfo.cs
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\obj\Debug\netcoreapp2.1\Normalizer.dll
+E:\Downloads\TRRP_Lab2-master (1)\TRRP_Lab2-master\Normalizer\obj\Debug\netcoreapp2.1\Normalizer.pdb
