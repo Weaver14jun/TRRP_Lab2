@@ -37,12 +37,12 @@ namespace TRRP_L2_Server
         {
             //var pcList = Normalizer.GetPCList("Data Source=" + "bands.db;");
 
-            IPHostEntry ipHost = Dns.GetHostEntry("localhost");
-            IPAddress ipAddr = ipHost.AddressList[1];
-            IPEndPoint ipEndPoint = new IPEndPoint(ipAddr, 11000);
-            AmqpTcpEndpoint amqpTcpEndpoint = new AmqpTcpEndpoint(ipAddr.ToString(), 15672);
+            //IPHostEntry ipHost = Dns.GetHostEntry("localhost");
+            //IPAddress ipAddr = ipHost.AddressList[1];
+            //IPEndPoint ipEndPoint = new IPEndPoint(ipAddr, 11000);
+            //AmqpTcpEndpoint amqpTcpEndpoint = new AmqpTcpEndpoint(ipAddr.ToString(), 15672);
             //var factory = new ConnectionFactory() { Endpoint = amqpTcpEndpoint };
-            var factory = new ConnectionFactory() { HostName = "109.120.151.33", Port = 5672};
+            var factory = new ConnectionFactory() { HostName = "109.120.151.33", Port = 5672 };
             factory.UserName = "weaver";
             factory.Password = "1230321";
             //factory.VirtualHost = vhost;
@@ -51,6 +51,19 @@ namespace TRRP_L2_Server
             {
                 using (var channel = connection.CreateModel())
                 {
+                    BasicGetResult result = channel.BasicGet("dbQueue", false);
+                    if (result == null)
+                    {
+                        // No message available at this time.
+                    }
+                    else
+                    {
+                        IBasicProperties props = result.BasicProperties;
+                        byte[] body = result.Body;
+                        var message = Encoding.UTF8.GetString(body);
+                        var pcList = JsonConvert.DeserializeObject<List<Normalizer.PCModel>>(message);
+                        Normalizer.PCTableNormalizer.SetPCList(pcList, "Server = 127.0.0.1; Port=5433; User Id = postgres; " + "Password=a54g5x; Database=pcdb;");
+                    }
                     //channel.QueueDeclare(queue: "Test",
                     //                     durable: true,
                     //                     exclusive: false,
@@ -86,15 +99,14 @@ namespace TRRP_L2_Server
                     //                     basicProperties: properties,
                     //                     body: body);
                     //Console.WriteLine(" [x] Sent {0}", message);
-
-
+                    /*
                     channel.QueueDeclare(queue: "dbQueue",
-                                     durable: true,
-                                     exclusive: false,
-                                     autoDelete: false,
-                                     arguments: null);
+                                 durable: true,
+                                 exclusive: false,
+                                 autoDelete: false,
+                                 arguments: null);
 
-                    channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+                    channel.BasicQos(prefetchSize: 0, prefetchCount: 10, global: true);
 
                     Console.WriteLine(" [*] Waiting for messages.");
 
@@ -104,7 +116,7 @@ namespace TRRP_L2_Server
                         var body = ea.Body;
                         var message = Encoding.UTF8.GetString(body);
                         //
-
+                        Console.WriteLine("We into");
                         var pcList = JsonConvert.DeserializeObject<List<Normalizer.PCModel>>(message);
                         Normalizer.PCTableNormalizer.SetPCList(pcList, "Server = 127.0.0.1; User Id = pcdb; " + "Password=a54g5x; Database=pcdb;");
                         //
@@ -120,7 +132,7 @@ namespace TRRP_L2_Server
                     channel.BasicConsume(queue: "dbQueue",
                                          autoAck: false,
                                          consumer: consumer);
-
+                                         */
                     Console.WriteLine(" Press [enter] to exit.");
                     Console.ReadLine();
 
